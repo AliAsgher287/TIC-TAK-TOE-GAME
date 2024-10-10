@@ -1,0 +1,66 @@
+h1{
+  background-color: rgb(219, 165, 94);
+  text-align: center;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_container{
+  height: 350px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 1cm;
+  background-color: aqua;
+}
+
+.reset_btn{
+  background-color: black;
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 0.7cm;
+  border: none;
+  padding: 0.5rem;
+}
+
+.new_game{
+  background-color: black;
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 0.7cm;
+  border: none;
+  padding: 0.5rem;
+  margin-top: 5px;
+}
+
+.game_container{
+  text-align: center;
+  margin: 20px;
+}
+
+.win-msg{
+  font-size: 1.5cm;
+  margin-bottom: -1px;
+  margin-top: 15px;
+  color: #b20c0c;
+}
+
+.hide{
+  display: none;
+}
